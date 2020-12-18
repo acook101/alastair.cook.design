@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="33" viewBox="0 0 34 33">
+  <defs>
+    <clipPath id="clip-twitter">
+      <rect width="34" height="33"/>
+    </clipPath>
+  </defs>
+  <g id="twitter" clip-path="url(#clip-twitter)">
+    <rect width="34" height="33" fill="#fff"/>
+    <g id="Twitter_Logo_Blue" transform="translate(1 -0.092)">
+      <rect id="Rectangle_4544" data-name="Rectangle 4544" width="33" height="33" transform="translate(0 0.092)" fill="none"/>
+      <path id="Path_7446" data-name="Path 7446" d="M81.549,115.372a12.075,12.075,0,0,0,12.157-12.157c0-.185,0-.369-.012-.552a8.693,8.693,0,0,0,2.132-2.212,8.529,8.529,0,0,1-2.454.672A4.288,4.288,0,0,0,95.25,98.76,8.563,8.563,0,0,1,92.537,99.8a4.277,4.277,0,0,0-7.282,3.9,12.131,12.131,0,0,1-8.806-4.464,4.276,4.276,0,0,0,1.323,5.7,4.241,4.241,0,0,1-1.939-.535v.054a4.274,4.274,0,0,0,3.428,4.188,4.266,4.266,0,0,1-1.929.073,4.278,4.278,0,0,0,3.992,2.967,8.574,8.574,0,0,1-5.306,1.833A8.7,8.7,0,0,1,75,113.453a12.1,12.1,0,0,0,6.549,1.916" transform="translate(-68.752 -90.237)" fill="#202124"/>
+    </g>
+  </g>
+</svg>
