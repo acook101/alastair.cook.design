@@ -743,4 +743,19 @@ footer a img:hover {
     p {
         font-size:18px;
     }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .card-title h2 {
+        font-size: 20px;
+    }
+
+    .section-content-title h2 {
+        font-size: 22px;
+    }
+    .section-content-title h3 {
+        font-size: 18px;
+    }
 }
