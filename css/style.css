@@ -1,4 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 html {
     height: 100%;
@@ -38,6 +39,7 @@ h3 {
 
 p {
     font-size: clamp(12px, 1vw, 14px);
+    font-family: 'Open Sans', sans-serif;
 }
 
 button {
@@ -61,7 +63,7 @@ button {
 
 a {
     color: #3B86FF;
-    font-size: 14px;
+    /* font-size: 14px; */
     text-decoration: none;
 }
 
@@ -136,6 +138,7 @@ footer a img:hover {
     color: white;
     margin: 0;
     font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .breadcrumb {
@@ -197,6 +200,11 @@ footer a img:hover {
 }
 .main-title h2 {
     font-size: clamp(20px, 3vw, 40px);
+}
+
+.intro_bold {
+    font-weight: 600;
+    color: rgb(44, 62, 80);
 }
 
 .projects-content {
@@ -563,15 +571,16 @@ footer a img:hover {
 }
 
 .education-section {
-    margin-top: 150px;
+    margin-top: 50px;
 }
+
 
 .education-section:before {
     content: '';
     position: absolute;
     top: 30px;
     left: 0;
-    height: 500px;
+    height: 750px;
     width: 4px;
     z-index: -1;
     background: rgba(189,189,189, 0.4);
