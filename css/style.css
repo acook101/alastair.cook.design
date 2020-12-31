@@ -564,7 +564,27 @@ footer a img:hover {
 .section-content-container {
     min-height: 300px;
     padding-top: 15px;
+    padding-right: 10px;
+    overflow: auto;
+    scrollbar-width: thin;
 }
+   
+.section-content-container::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+/* Handle */
+.section-content-container::-webkit-scrollbar-thumb {
+    background: rgba(255,88,27, 0.2);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.section-content-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(255,88,27, 0.3);
+}
+
 
 .section {
     position: relative;
@@ -580,7 +600,7 @@ footer a img:hover {
     position: absolute;
     top: 30px;
     left: 0;
-    height: 750px;
+    height: 920px;
     width: 4px;
     z-index: -1;
     background: rgba(189,189,189, 0.4);
@@ -690,7 +710,7 @@ footer a img:hover {
     .projects-content {
         padding-top: 50px;
     }
-
+ 
     .portrait-container {
         display: none;
     }
