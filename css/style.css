@@ -679,8 +679,8 @@ footer a img:hover {
 
 .section-content-card {
     position: relative;
-    height: 80px;
-    width: 80px;
+    height: 10vw;
+    width: 10vw;
     margin: 0 5px;
     border-radius: 10px;
     box-shadow:0 2px 5px 0 rgba(140, 144, 155, 0.15);
