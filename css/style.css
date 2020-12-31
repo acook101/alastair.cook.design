@@ -713,10 +713,12 @@ footer a img:hover {
  
     .portrait-container {
         display: none;
+        padding: 200px 30px 124px 30px;
     }
 
     .project-card {
         flex-direction: column;
+        max-width: 900px;
     }
 
     .image-placeholder {
