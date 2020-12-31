@@ -744,7 +744,7 @@ footer a img:hover {
         max-width: unset;
     }
      .main-title h1 {
-        margin-top: 50px; 
+        margin-top: 80px; 
         font-size: clamp(40px, 10vw, 60px);
     }
     .education-section {
@@ -786,7 +786,10 @@ footer a img:hover {
         font-size: 16px;
         padding: 6px; 
     }
-
+    footer a img {
+        width: 40px;
+        height: 40px;
+    }
     .card-title h2 {
         font-size: 24px;
     }
