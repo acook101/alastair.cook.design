@@ -195,7 +195,7 @@ footer a img:hover {
 }
 
 .main-title h1 {
-    font-size: clamp(40px, 10vw, 60px);
+    font-size: clamp(40px, 10vw, 50px);
     margin-top: 150px; 
 }
 .main-title h2 {
@@ -679,8 +679,8 @@ footer a img:hover {
 
 .section-content-card {
     position: relative;
-    height: 10vw;
-    width: 10vw;
+    height: 80px;
+    width: 80px;
     margin: 0 5px;
     border-radius: 10px;
     box-shadow:0 2px 5px 0 rgba(140, 144, 155, 0.15);
@@ -745,13 +745,14 @@ footer a img:hover {
     }
      .main-title h1 {
         margin-top: 50px; 
+        font-size: clamp(40px, 10vw, 60px);
     }
     .education-section {
         margin-top: 50px;   
     }
 
     .projects-content {
-        padding-top: 50px;
+        padding: 0 30px 124px 30px ;
     }
 
     .portrait-container {
@@ -760,23 +761,30 @@ footer a img:hover {
 
     .project-card {
         flex-direction: column;
+        max-width: 900px;
     }
 
     .image-placeholder {
-        min-height: 350px;
+        min-height: 520px;
         margin: 10px;
     }
 
     .card-contents {
         max-width: unset;
     }
-   
+    .breadcrumbs_container p {
+        font-size: 18px;
+    }
     p {
         font-size:25px;
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 35px;
+    }
+    button {
+        font-size: 16px;
+        padding: 6px; 
     }
 
     .card-title h2 {
@@ -788,6 +796,10 @@ footer a img:hover {
     .education-section > .section-content-container {
         min-height: 790px!important;
         max-height: 790px!important;
+    }
+    .section-content-card {
+        height: 10vw;
+        width: 10vw;
     }
     .section-content-title h2 {
         font-size: 28px;
