@@ -195,7 +195,7 @@ footer a img:hover {
 }
 
 .main-title h1 {
-    font-size: clamp(40px, 10vw, 50px);
+    font-size: clamp(40px, 10vw, 60px);
     margin-top: 150px; 
 }
 .main-title h2 {
@@ -770,7 +770,7 @@ footer a img:hover {
     }
    
     p {
-        font-size:22px;
+        font-size:25px;
     }
 
     h1 {
@@ -781,16 +781,16 @@ footer a img:hover {
         font-size: 24px;
     }
     .education-section:before {
-        height: 1300px;
+        height: 1550px;
     }
     .education-section > .section-content-container {
-        min-height: 670px!important;
-        max-height: 670px!important;
+        min-height: 790px!important;
+        max-height: 790px!important;
     }
     .section-content-title h2 {
-        font-size: 25px;
+        font-size: 28px;
     }
     .section-content-title h3 {
-        font-size: 22px;
+        font-size: 25px;
     }
 }
