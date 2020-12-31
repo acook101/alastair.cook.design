@@ -1,11 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="33" viewBox="0 0 34 33">
-  <defs>
-    <clipPath id="clip-linkdin">
-      <rect width="34" height="33"/>
-    </clipPath>
-  </defs>
-  <g id="linkdin" clip-path="url(#clip-linkdin)">
-    <rect width="34" height="33" fill="#fff"/>
-    <path id="iconmonstr-linkedin-1" d="M4.746,3.383A2.364,2.364,0,1,1,2.383,1,2.373,2.373,0,0,1,4.746,3.383Zm.019,4.289H0v15.25H4.765Zm7.608,0H7.638v15.25h4.736V14.916c0-4.451,5.746-4.815,5.746,0v8.005h4.754V13.265c0-7.51-8.5-7.237-10.5-3.54V7.672Z" transform="translate(6 5)" fill="#202124"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 34 33" style="enable-background:new 0 0 34 33;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#3B86FF;}
+</style>
+<rect class="st0" width="34" height="33"/>
+<g id="linkdin">
+	<path id="iconmonstr-linkedin-1" class="st1" d="M10.7,8.4c0,1.3-1.1,2.4-2.4,2.3S6,9.7,6,8.3C6,7,7.1,6,8.4,6
+		C9.7,6,10.8,7.1,10.7,8.4C10.7,8.4,10.7,8.4,10.7,8.4z M10.8,12.7H6v15.3h4.8V12.7z M18.4,12.7h-4.7v15.3h4.7v-8
+		c0-4.5,5.7-4.8,5.7,0v8h4.8v-9.7c0-7.5-8.5-7.2-10.5-3.5L18.4,12.7L18.4,12.7z"/>
+</g>
 </svg>
