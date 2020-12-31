@@ -780,7 +780,13 @@ footer a img:hover {
     .card-title h2 {
         font-size: 24px;
     }
-
+    .education-section:before {
+        height: 1300px;
+    }
+    .education-section > .section-content-container {
+        min-height: 670px!important;
+        max-height: 670px!important;
+    }
     .section-content-title h2 {
         font-size: 25px;
     }
