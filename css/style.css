@@ -498,9 +498,37 @@ footer a img:hover {
     background-position: left!important;
 }
 
+.project-img-cluster {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    min-height: 400px;
+}
+
+
 .project-img_cezanne {
     background: url(images/project1-img.png);
 }
+.project-img_cezanne-2 {
+    background: url(images/project1-img-2.png);
+}
+
+.project-img_cezanne-3 {
+    background: url(images/project1-img-3.jpg);
+}
+
+.project-img_cezanne-4 {
+    background: url(images/project1-img-4.png);
+}
+
+.project-img_cezanne-5 {
+    background: url(images/project1-img-5.png);
+}
+
+.project-img_cezanne-6 {
+    background: url(images/project1-img-6.png);
+}
+
 
 .project-img_recyclops {
     background: url(images/recyclops.png);
@@ -721,6 +749,7 @@ footer a img:hover {
     .project-card {
         flex-direction: column;
         max-width: 900px;
+        min-height: unset;
     }
 
     .image-placeholder {
