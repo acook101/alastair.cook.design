@@ -531,7 +531,45 @@ footer a img:hover {
 
 
 .project-img_recyclops {
-    background: url(images/recyclops.png);
+    background: url(images/recyclops.jpg);
+}
+
+.project-img_recyclops-2 {
+    background: url(images/recyclops-2.png);
+}
+
+.project-img_recyclops-3 {
+    background: url(images/recyclops-3.png);
+}
+
+.project-img_recyclops-4 {
+    background: url(images/recyclops-4.jpg);
+    max-height: 300px;
+    margin: 10px;
+}
+
+.project-img_recyclops-5 {
+    background: url(images/recyclops-5.jpg);
+    max-height: 300px;
+    margin: 10px;
+}
+
+.project-img_recyclops-6 {
+    background: url(images/recyclops-6.jpg);
+    max-height: 300px;
+    margin: 10px;
+}
+
+.project-img_recyclops-7 {
+    background: url(images/recyclops-7.jpg);
+    max-height: 300px;
+    margin: 10px;
+}
+
+.project-img_recyclops-8 {
+    background: url(images/recyclops-8.jpg);
+    max-height: 300px;
+    margin: 10px;
 }
 
 .project-img_pals {
@@ -592,13 +630,16 @@ footer a img:hover {
 /*  TIMELINE CONTENT (right side)    */
 
 .section-content-container {
-    min-height: 300px;
     padding-top: 15px;
     padding-right: 10px;
     overflow: auto;
     scrollbar-width: thin;
 }
-   
+ 
+.section-content-container-timeline {
+    min-height: 300px;
+}
+
 .section-content-container::-webkit-scrollbar {
     height: 10px;
     width: 10px;
