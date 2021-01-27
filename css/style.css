@@ -627,7 +627,7 @@ footer a img:hover {
 }
 
 .card-title h2{
-    font-size: 16px;
+    font-size: 14px;
     margin-top:5px;
 }
 
@@ -851,6 +851,7 @@ footer a img:hover {
 
     .card-contents {
         max-width: unset;
+        padding: 10px 10px 60px 10px;
     }
 
 }
