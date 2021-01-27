@@ -592,7 +592,6 @@ footer a img:hover {
 
 .project-img_recyclops-12 {
     background: url(images/recyclops-12.png);
-    max-height: 300px;
     margin: 10px;
     box-shadow:unset;
 }
@@ -849,6 +848,10 @@ footer a img:hover {
         margin: 10px;
     }
 
+    .image-placeholder > iframe {
+        min-height: 350px;
+    }
+
     .card-contents {
         max-width: unset;
         padding: 10px 10px 60px 10px;
@@ -897,6 +900,10 @@ footer a img:hover {
     .image-placeholder {
         min-height: 520px;
         margin: 10px;
+    }
+
+    .image-placeholder > iframe {
+        min-height: 520px;
     }
 
     .card-contents {
