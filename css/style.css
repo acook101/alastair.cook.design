@@ -594,6 +594,7 @@ footer a img:hover {
     background: url(images/recyclops-12.PNG);
     margin: 10px;
     box-shadow:unset;
+    background-position: center!important;
 }
 
 
