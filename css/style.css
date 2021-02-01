@@ -35,6 +35,12 @@ h2 {
 
 h3 {
     font-size: clamp(13px, 1.5vw, 18px);
+
+}
+
+h4 {
+    color: #FF581B;
+    margin: 0;
 }
 
 p {
@@ -508,6 +514,7 @@ footer a img:hover {
 
 .project-img_cezanne {
     background: url(images/project1-img.png);
+    background-size: contain!important;
 }
 .project-img_cezanne-2 {
     background: url(images/project1-img-2.png);
@@ -602,9 +609,114 @@ footer a img:hover {
     background: url(images/pals.jpg);
 }
 
+.project-img_pals-2 {
+    background: url(images/pals-2.png);
+}
+
+.project-img_pals-3 {
+    background: url(images/pals-3.png);
+    max-height: 300px;
+    margin: 10px;
+}
+
+.project-img_pals-4 {
+    background: url(images/pals-3.jpg);
+}
+
+.project-img_pals-5 {
+    background: url(images/pals-5.png);
+}
+
+.project-img_pals-6 {
+    background: url(images/pals-6.png);
+    max-height: 300px;
+    margin: 10px;
+}
+
+.project-img_pals-7 {
+    background: url(images/pals-7.png);
+    max-height: 300px;
+    margin: 10px;
+}
+
+.project-img_pals-8 {
+    background: url(images/pals-8.png);
+    max-height: 300px;
+    margin: 10px;
+}
+
+.project-img_pals-9 {
+    background: url(images/pals-9.png);
+}
+
 .project-img_timesheet {
     background: url(images/timesheet-app.png);
     background-position: top!important;
+}
+
+.project-img_datavis {
+    background: url(images/datavis.png);
+    background-position: top!important;
+}
+
+.project-img_datavis-1 {
+    background: url(images/datavis-1.png);
+    background-position: top!important;
+}
+
+.project-img_datavis-2 {
+    background: url(images/datavis-2.png);
+    background-position: top!important;
+}
+
+.project-img_datavis-3 {
+    background: url(images/datavis-3.png);
+    background-position: top!important;
+}
+
+.project-img_datavis-4 {
+    background: url(images/datavis-4.png);
+    background-position: top!important;
+    background-size:contain!important
+}
+
+.project-img_datavis-5 {
+    background: url(images/datavis-5.png);
+    background-size:contain!important;
+    max-height: 300px;
+    margin: 10px;
+}
+
+.project-img_datavis-6 {
+    background: url(images/datavis-6.png);
+    background-size:contain!important;
+    max-height: 300px;
+    margin: 10px;
+}
+
+.project-img_datavis-7 {
+    background: url(images/datavis-7.png);
+    background-size:contain!important;
+}
+
+
+.project-img_datavis-8 {
+    background: url(images/datavis-8.png);
+    background-position: top!important;
+    background-size:contain!important;
+}
+
+
+.project-img_datavis-9 {
+    background: url(images/datavis-9.png);
+    background-position: top!important;
+    background-size:contain!important;
+}
+
+
+.project-img_datavis-10 {
+    background: url(images/datavis-10.png);
+    background-size:contain!important;
 }
 
 .project-link {

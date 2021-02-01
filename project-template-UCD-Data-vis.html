@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Alastair Cook UXD Portfolio">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="timeline-half">
+            <div class="timeline-content">
+                <div class="breadcrumbs_container">
+                    <div class="breadcrumb"><a href="index.html"><p>Homepage</p></a></div>
+                    <img src="css/images/arrow-right.svg">
+                    <div class="breadcrumb-second-level"><p>User-Centred Data Visualisation</p></div>
+                </div>
+
+                <div class="content-header main-title">
+                    <div class="card-title">
+                        <h1>User-Centred Data Visualisation </h1>
+                        <h2>Data Visualisation</h2>
+                    </div>
+                    <div class="card-tags">
+                        <div class="project-tag"><p>Programming</p></div>
+                        <div class="project-tag"><p>Data Visualisation</p></div>
+                        <div class="project-tag"><p>Data theory</p></div>
+                        <div class="project-tag"><p>Electronics</p></div>
+                        <div class="project-tag"><p>Programming</p></div>
+                    </div> 
+                    <p>
+                        As a part of my MSc, I created mutiple kinds of data visualisations around a variety of subjects that intrest me. 
+                    </br></br><a href="https://drive.google.com/file/d/1CEafe5MArLB0VBEqjJFiQN3BVUA2NPOy/view?usp=sharing"> See full report here </a>                  
+                    </p>
+                </div>
+
+                <div class="section-content-container">
+                    <h3 style="margin:0;">Twitter Analytical Tool </h3>
+                    <h4>Time-Series Word Cloud</h4>
+                    <p> 
+                        <i><b>Data Source:</b></i> </br> 
+                        Donald Trumps Tweets</br> 
+                        Anonymous Twitter Bot</br> </br> 
+
+                        <i><b>Domain Tasks</b></i> </br> 
+                        - What does this user care about ?</br>
+                        - How can I decipher if this user is real or not?</br>
+                        - Has this user's interests and views changed over time ?</br>
+
+                         </br><i><b>Motivation</b></i> </br> 
+                         In recent years Twitter has become one of the most prominent
+                        areas of public discourse online. Following the 2016 US
+                        presidential election, Twitter, along with other platforms such as
+                        Facebook, came under pressure with how they managed the
+                        spread of fake news during this election, and what efforts were
+                        being made to avoid future political interference from both
+                        domestic and foreign entities. While internally, twitter has been
+                        utilising both machine learning and automation technologies to
+                        stop the spread of disinformation, it has provided a minimal
+                        amount of analytical tools for it’s users to decipher such
+                        information and accounts.
+                        A recent study by the Knight Foundation [1] highlighted the
+                        different ways fake news spreads across Twitter. One of the
+                        main indicators of bot activity was around repetition of clustered
+                        tweets and hashtags on a regular basis, and while this activity
+                        can be discovered easily through an extracted dataset, user’s
+                        may struggle to identify this behaviour through Twitter's current
+                        timeline functionality.</br>
+
+
+                        </br><i><b>Research, Design and Development</b></i> </br> 
+                        Traditional text-based visual representations are commonly used to
+                        highlight importance, where the frequency of a word is associated
+                        with either it’s font-size or font weight [2,3]. Additional attributes
+                        such as colour and algorithmic layout adjustments [2] have been
+                        used to further enhance these visualizations, as shown in Figure 1,
+                        2, through the reducedation of whitespace, appropriate spacing,
+                        and the usage of a contrasting colour palette [6] (Figure 4). Criticism
+                        of word clouds have been mostly grounded in the efficiency and
+                        accuracy of the processing and extraction of data. Applicational
+                        scenarios such as user generated reviews have demonstrated how
+                        information can be missed or hidden by the lack of adjectives
+                        accompanying nouns within a cloud, and how inconsistent writing
+                        styles can increase the amount of effort and time to read
+                        information, potentially interfering with user’s overall perception of
+                        a given dataset [5]. While not questioning the validity of the
+                        criticism, word clouds have seen success in other non-descriptive
+                        heavy contexts where information isn’t generated by various users,
+                        and is often used within a specific topical area.
+                        This visualisation was formed from datasets that were made up of
+                        three main features: hashtag characters, date/time, and frequency
+                        count. The first two visualisations (Figure 1,2) present how a timeline
+                        of hashtag usage could be displayed within Twitter's analytics
+                        dashboards. With the first dashboard (Figure 1) highlighting a
+                        timeline of Donald Trump's hashtag usage since 2016, accompanied
+                        with a secondary visualisation (Figure 2) based upon an anonymous
+                        twitter bots hashtag usage across the same time period. Initially, the
+                        design of the cloud attempted to include all of the hashtags used
+                        across multiple years. However, it quickly became apparent that this
+                        would lead to information overload and result in a large amount of
+                        the dataset being hidden. To ensure that the user would be able to
+                        distinguish the different levels of information, I referred to Munzner
+                        and Maguire’s [6] discriminability guidelines which led to the
+                        refactoring of the design. As a result, the focus of the design now
+                        shifted towards a more traditional horizontal time-series consisting
+                        of word cloud containers based upon year, most importantly this
+                        addressed both domain-task two and three, while also increasing
+                        the range of data users could access without being overloaded.
+                        While the time-series layout improved the user’s ability to
+                        distinguish weighting across time, other concerns around visibility
+                        arose. Taking influence from Ben Shneiderman’s Overview First,
+                        Zoom and Filter, Details on Demand [7] a secondary toggle view
+                        was introduced as shown in Figure 3, with each visualization -
+                        embedded within a vertical scrollable view - taking advantage of
+                        the full width of the screen. This would ensure users are initially
+                        provided with all of the items within the dataset simultaneously, with
+                        the secondary ability to draw a more detailed view of the given
+                        visualization.The D3.js framework was used to create the visualisation, during the development of the word cloud two main objectives were
+                        achieved. First, efforts around algorithmic adjustments to the layout and positioning of each word provided the ability to control both
+                        the density and space-filling of each visualisation, which directly influenced what kinds of visual encoding where used [6] and
+                        avoided common issues around overlapping. Secondarily, both the design and development took a mobile-first approach considering
+                        the medium the visualisation would be used within.
+                        When considering what kinds of design choices where needed to fulfill domain-task
+                        one, interactivity was frequently used across some of the early sketches. Expecting
+                        user's to become interested in more abstract data, which they might know little
+                        about, additional functionality around exploration and analysis was added. As
+                        shown in Figure.6, following the recommended interactivity mechanisms of
+                        selecting and linking [9], each word inside the cloud would be a selectable element
+                        - applying an alterative contrasted hex value to the rest of the palette [6] - this
+                        would then be linked to a side menu that could expand and collapse each tweet
+                        that the selected hashtag had be used within. Providing users the ability to both,
+                        see the increase or decrease of frequency of usage throughout a timeline and the
+                        ability to gain a deeper contextual level of affordance with the drilling down into
+                        individual tweets. </br></br>
+
+                    </p>
+
+                    <h3 style="margin:0;">UK COVID-19 Report</h3>
+                    <h4>Sparkline Map & Bar Chart</h4>
+                    <p> 
+                        <i><b>Data Source:</b></i> </br> 
+                        Office For National Statistics(https://www.ons.gov.uk/)</br> 
+                        NHS England (https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-dailydeaths/)</br> </br> 
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="projects-half">
+            <div class="projects-content">
+                <div class="project-card">
+                    <div class="image-placeholder project-img_datavis"></div>
+                </div>
+
+                <div class="project-card">
+                    <div class="image-placeholder project-img_datavis-3"></div>
+                </div>
+
+                <div class="project-card">
+                    <div class="image-placeholder project-img_datavis-4"></div>
+                </div>
+
+                <div class="project-card" style="min-height: 300px;">
+                    <div class="image-placeholder project-img_datavis-4"></div>
+                    <div class="image-placeholder project-img_datavis-3"></div>
+                </div>
+                <div class="project-card" style="min-height: 300px;">
+                    <div class="image-placeholder project-img_datavis-8"></div>
+                    <div class="image-placeholder project-img_datavis-9"></div>
+                </div>
+
+                <div class="project-card" style="min-height: 300px;">
+                    <div class="image-placeholder project-img_datavis-5"></div>
+                    <div class="image-placeholder project-img_datavis-6"></div>
+                    <div class="image-placeholder project-img_datavis-7"></div>
+                    <div class="image-placeholder project-img_datavis-10"></div>
+                </div>
+
+                <div class="project-card" >
+                    <div class="image-placeholder project-img_datavis-2"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+                <a href="https://drive.google.com/file/d/14MsWsS0p97j29QMhCITRszOh_R3fxXlI/view?usp=sharing"><img src="css/images/download.svg"></a>
+                <a href="mailto:alastaircook96@gmail.com" title="alastaircook96@gmail.com"><img src="css/images/email.svg"></a>
+                <a><img src="css/images/twitter.svg"></a>
+                <a href="https://www.linkedin.com/in/alastair-cook-242b29114/" title="Linkedin Profile"><img src="css/images/linkedin.svg"></a>
+                <a><img src="css/images/dribble.svg"></a>
+            </footer>
+        
+</body>
+
+</html>
