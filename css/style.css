@@ -536,6 +536,33 @@ footer a img:hover {
     background: url(images/project1-img-6.png);
 }
 
+.project-img_cezanne-7 {
+    background: url(images/project1-img-7.png);
+}
+
+.project-img_cezanne-8 {
+    background: url(images/project1-img-8.png);
+}
+
+.project-img_cezanne-9 {
+    background: url(images/project1-img-9.png);
+}
+
+.project-img_cezanne-10 {
+    background: url(images/project1-img-10.PNG);
+    background-position: top!important;
+}
+
+.project-img_cezanne-11 {
+    background: url(images/project1-img-11.PNG);
+    background-position: top!important;
+}
+
+.project-img_cezanne-12 {
+    background: url(images/project1-img-12.PNG);
+    background-position: top!important;
+}
+
 
 .project-img_recyclops {
     background: url(images/recyclops.jpg);
@@ -611,6 +638,9 @@ footer a img:hover {
 
 .project-img_pals-2 {
     background: url(images/pals-2.png);
+    background-size: contain!important;
+    box-shadow: unset;
+    border-radius: 0;
 }
 
 .project-img_pals-3 {
@@ -647,6 +677,9 @@ footer a img:hover {
 
 .project-img_pals-9 {
     background: url(images/pals-9.png);
+    background-size: contain!important;
+    box-shadow: unset;
+    border-radius: 0;
 }
 
 .project-img_timesheet {
@@ -703,19 +736,65 @@ footer a img:hover {
 .project-img_datavis-8 {
     background: url(images/datavis-8.png);
     background-position: top!important;
-    background-size:contain!important;
+    max-height: 300px;
+    margin: 10px;
 }
 
 
 .project-img_datavis-9 {
     background: url(images/datavis-9.png);
     background-position: top!important;
-    background-size:contain!important;
+    max-height: 300px;
+    margin: 10px;
 }
 
 
 .project-img_datavis-10 {
     background: url(images/datavis-10.png);
+    background-size:contain!important;
+}
+
+.project-img_datavis-11 {
+    background: url(images/datavis-11.png);
+    max-height: 300px;
+    margin: 10px;
+}
+
+.project-img_datavis-12 {
+    background: url(images/datavis-12.png);
+    max-height: 300px;
+    margin: 10px;
+}
+
+
+.project-img_icu {
+    background: url(images/icu.png);
+    background-position: top!important;
+}
+
+.project-img_icu-1 {
+    background: url(images/icu-1.png);
+    background-size:contain!important;
+}
+
+.project-img_icu-2 {
+    background: url(images/icu-2.png);
+    background-position: top!important;
+}
+
+.project-img_icu-3 {
+    background: url(images/icu-3.png);
+    background-position: top!important;
+}
+
+.project-img_icu-4 {
+    background: url(images/icu-4.png);
+    background-position: top!important;
+}
+
+.project-img_icu-5 {
+    background: url(images/icu-5.jpg);
+    background-position: top!important;
     background-size:contain!important;
 }
 
@@ -846,7 +925,7 @@ footer a img:hover {
     position: absolute;
     top: 30px;
     left: 0;
-    height: 300px;
+    height: 260px;
     width: 4px;
     z-index: -1;
     background: rgba(189,189,189, 0.4);
@@ -959,6 +1038,7 @@ footer a img:hover {
     .image-placeholder {
         min-height: 350px;
         margin: 10px;
+        border: 2px solid rgba(0,0,0,0.05);
     }
 
     .image-placeholder > iframe {
