@@ -149,6 +149,88 @@
                         <i><b>Data Source:</b></i> </br> 
                         Office For National Statistics(https://www.ons.gov.uk/)</br> 
                         NHS England (https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-dailydeaths/)</br> </br> 
+
+                        <i><b>Medium:</b></i> </br> 
+                        This visualisation has been designed as a multimedia report that could be used both in both public or digital spaces.</br> </br> 
+                        
+                        <i><b>Motivation:</b></i> </br> 
+                        As the spread of COVID-19 has effected nearly every part of
+                        the world, shutting down economy's and pushing health
+                        services to the brink. A lot of the data reported within the
+                        mainstream media has predominantly been focused on
+                        global level statistics, such as countries and capitals. While
+                        assumptions' around population density provide good
+                        indications for the levels of COVID-19 cases and deaths within
+                        regional and local areas, little reporting has been presented
+                        through this frame.</br> </br> 
+
+                        <i><b>Research, Design and Development:</b></i> </br>
+                        This report consists of two main visualutions.
+                        First, a geographical representation of the UK,
+                        with England regions contrasted to the
+                        foreground. Accompanied with line graphs,
+                        representing death count (per day), overlaid
+                        across the relative regions. The second
+                        visualization focused on regional totals through
+                        a combination of contrasting labels presenting
+                        case and death counts with an additional bar
+                        chart focused solely on death counts, providing
+                        a cumulative total to support the first
+                        visualization. It's suggested that maps often
+                        feel personal to users, and tend to be an
+                        intuitive medium across all generations [10].
+                        Initial designs focused on extracting datasets
+                        based on English local authorities to ensure
+                        that the visualution addressed domain task
+                        one. However, after multiple iterations of the
+                        sketches and prototypes, as shown in Figure 8
+                        and 9, the amount of data being shown
+                        resulted in the inability to distinguish each data
+                        node. To avoid interchannel interference, I
+                        evolved the design to reduce the scale of the
+                        dataset to regional statistics, as I felt this still
+                        addressed the domain tasks focus of providing
+                        local data. To improve the discriminability and
+                        visual accuracy of each channel, I altered the
+                        hue of both the background and the line
+                        channel to ensure the contrast provided a
+                        magnified view of the data being presented [6].
+                        Additional channels were added to support the
+                        overall structure of the graph's x and y axis's,
+                        improving separability and overlap of each
+                        graph [6].
+                        Regional labels were also added, as shown in
+                        Figure.7, to assist users who may be unfamiliar
+                        with the geographical area, while also
+                        improving the speed- accuracy trade offs that
+                        familiar users may face. Considerations were
+                        also made around the different ways users
+                        could interact with web-based reports as
+                        highlighted in Figure.12. Allowing users to
+                        toggle between different geographical and
+                        quantitative parameters. </br> </br> 
+
+                        <i><b>Sparkline Map:</b></i> </br>
+                        The sparkline map was created in GQIS, using the geometry
+                        generation feature to construct all of the elements and layers
+                        within the visualization, and relational expressions to mold
+                        the graph around the data.</br> </br> 
+
+                        <i><b>Bar Chart & Labels:</b></i> </br>
+                        Both the labels and bar chart were
+                        formatted in a webpage through HTML &
+                        CSS, with the chart being created
+                        through D3.js. The styling of both
+                        elements followed the same contrasts as
+                        the map to ensure comparisons
+                        between both visualizations were
+                        correctly perceived.</br> </br> 
+
+
+                        <div class="project-img-cluster">
+                            <div class="image-placeholder project-img_datavis-13"></div>
+                        </div>
+
                 </div>
 
             </div>
