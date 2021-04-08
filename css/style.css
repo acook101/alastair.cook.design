@@ -46,6 +46,7 @@ h4 {
 p {
     font-size: clamp(12px, 1vw, 14px);
     font-family: 'Open Sans', sans-serif;
+    margin: 5px 0;
 }
 
 button {
@@ -136,7 +137,7 @@ footer a img:hover {
 .breadcrumbs_container {
     position: absolute;
     top: 20px;
-    left: 40px;
+    left: 35px;
     display: flex;
     align-items: center;
     padding: 5px;
@@ -603,6 +604,7 @@ footer a img:hover {
 .project-img_cezanne-13 {
     background: url(images/project1-img-13.png);
     background-position: top!important;
+    background-size: 400px!important;
 }
 
 .project-img_cezanne-14 {
@@ -1096,7 +1098,36 @@ footer a img:hover {
     max-height: 60%; 
 }
 
+.section-background-card-div {
+    display: flex;
+    margin-right: 0%;
+    margin-left: 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
+.section-background-card-grid {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+
+    margin-top: 40px;
+    padding: 32px;
+    grid-template-columns: 1fr 1.75fr;
+    border-style: none;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 10%);
+    font-family: Verdana, Geneva, sans-serif;
+    color: rgba(92, 92, 92, 0.7);
+    font-weight: 400;
+
+
+}
 
 @media only screen and (max-width: 812px) {
     .main-title h1 {
