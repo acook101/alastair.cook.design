@@ -1048,12 +1048,14 @@ footer a img:hover {
 }
 
 .section-content-desc {
-    padding-left: 15px;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
 .section-content-desc h3 {
     font-size: 13px;
     margin: 0;
     color: #202124;
+    color: #FF581B;
 }
 
 .title-logo-container {
