@@ -625,6 +625,79 @@ footer a img:hover {
     background-size: contain!important;
 }
 
+.project-img_cezanne-17 {
+    background: url(images/project1-img-17.png);
+    background-position: left!important;
+    background-size: contain!important;
+}
+.project-img_cezanne-18 {
+    background: url(images/project1-img-18.png);
+    background-position: left!important;
+    background-size: contain!important;
+}
+.project-img_cezanne-19 {
+    background: url(images/project1-img-19.png);
+    background-position: left!important;
+    background-size: contain!important;
+}
+.project-img_cezanne-20 {
+    background: url(images/project1-img-20.png);
+    background-position: top!important;
+}
+.project-img_cezanne-21 {
+    background: url(images/project1-img-21.png);
+    background-position: left!important;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin: 10px;
+}
+.project-img_cezanne-22 {
+    background: url(images/project1-img-22.png);
+    background-position: left!important;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin: 10px;
+}
+
+.project-img_cezanne-23 {
+    background: url(images/project1-img-23.png);
+    background-position: left!important;
+    background-size: contain!important;
+    margin: 10px;
+}
+
+.project-img_cezanne-24 {
+    background: url(images/project1-img-24.png);
+    background-position: left!important;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin: 10px;
+}
+
+.project-img_cezanne-25 {
+    background: url(images/project1-img-25.png);
+    background-position: left!important;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin: 10px;
+}
+
+.project-img_cezanne-26 {
+    background: url(images/project1-img-26.png);
+    background-size: contain!important;
+    height: 3000px;
+}
+
+.project-img_cezanne-27 {
+    background: url(images/project1-img-27.png);
+}
+
+
+.project-img_cezanne-28 {
+    background: url(images/project1-img-28.png);
+}
+
+
+.project-img_cezanne-29 {
+    background: url(images/project1-img-29.png);
+}
+
 
 .project-img_recyclops {
     background: url(images/recyclops.jpg);
@@ -747,15 +820,51 @@ footer a img:hover {
 
 .project-img_design-system {
     background: url(images/design-system.png);
-    background-position: top!important;
-    background-size: contain!important;
 }
 
 .project-img_design-system-1 {
     background: url(images/design-system-1.png);
+}
+
+.project-img_design-system-2 {
+    background: url(images/design-system-2.png);
+}
+
+.project-img_design-system-3 {
+    background: url(images/design-system-3.png);
     background-position: top!important;
 }
 
+.project-img_design-system-4 {
+    background: url(images/design-system-4.png);
+    background-position: top!important;
+}
+
+.project-img_design-system-5 {
+    background: url(images/design-system-5.png);
+    background-position: top!important;
+}
+
+.project-img_design-system-6 {
+    background: url(images/design-system-6.png);
+    background-position: top!important;
+}
+
+.project-img_design-system-7 {
+    background: url(images/design-system-7.png);
+}
+
+.project-img_design-system-8 {
+    background: url(images/design-system-8.png);
+}
+
+.project-img_design-system-9 {
+    background: url(images/design-system-9.png);
+}
+
+.project-img_design-system-10 {
+    background: url(images/design-system-10.png);
+}
 
 .project-img_timesheet {
     background: url(images/timesheet-app.png);
@@ -928,7 +1037,7 @@ footer a img:hover {
 
 .section-content-container {
     padding-top: 15px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     padding-right: 10px;
     overflow: auto;
     scrollbar-width: thin;
@@ -1248,7 +1357,7 @@ footer a img:hover {
         font-size: 18px;
     }
     p {
-        font-size:25px;
+        font-size:18px!important;
     }
 
     h1 {
