@@ -589,7 +589,7 @@ footer a img:hover {
 }
 
 .project-img_cezanne-10 {
-    background: url(images/project1-img-10.PNG);
+    background: url(images/project1-img-10.png);
     background-position: top!important;
 }
 
@@ -599,7 +599,7 @@ footer a img:hover {
 }
 
 .project-img_cezanne-12 {
-    background: url(images/project1-img-12.PNG);
+    background: url(images/project1-img-12.png);
     background-position: top!important;
 }
 
@@ -869,6 +869,10 @@ footer a img:hover {
 .project-img_timesheet {
     background: url(images/timesheet-app.png);
     background-position: top!important;
+}
+
+.project-img_timesheet-1 {
+    background: url(images/timesheet-app-1.png);
 }
 
 .project-img_datavis {
