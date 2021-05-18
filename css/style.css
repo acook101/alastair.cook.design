@@ -1367,6 +1367,15 @@ footer a img:hover {
     .card-contents {
         max-width: unset;
     }
+    
+    .card-contents button {
+        margin: 30px auto;
+        min-width: 40%;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
     .breadcrumb {
         margin-right: 10px;
         padding: 8px;
