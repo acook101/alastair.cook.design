@@ -1329,7 +1329,7 @@ footer a img:hover {
         max-width: unset;
     }
      .main-title h1 {
-        margin-top: 80px; 
+        margin-top: 120px; 
         font-size: clamp(40px, 10vw, 80px);
     }
     .main-title h2 {
@@ -1352,7 +1352,9 @@ footer a img:hover {
         flex-direction: column;
         max-width: 900px;
     }
-
+    .project-card_tag p {
+        font-size: 15px;
+    }
     .image-placeholder {
         min-height: 520px;
         margin: 10px;
@@ -1365,6 +1367,15 @@ footer a img:hover {
     .card-contents {
         max-width: unset;
     }
+    .breadcrumb {
+        margin-right: 10px;
+        padding: 8px;
+    }
+    .breadcrumbs_container img {
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+    }
     .breadcrumbs_container p {
         font-size: 25px;
     }
@@ -1375,7 +1386,7 @@ footer a img:hover {
     .project-tag p {
         font-size: 22px;
     }
-    p {
+    p, a {
         font-size:30px;
     }
 
@@ -1399,6 +1410,7 @@ footer a img:hover {
     }
     .card-title h2 {
         font-size: 34px;
+        margin: 20px 0;
     }
     .project-link {
         font-size: 25px;
@@ -1416,8 +1428,12 @@ footer a img:hover {
         max-height: 950px!important;
     }
     .section-content-card {
-        height: 10vw;
-        width: 10vw;
+        height: 13vw;
+        width: 13vw;
+    }
+    .section-content-card img {
+        max-width: 70%;
+        max-height: 70%;
     }
     .section-content-title {
         height: 80px;
