@@ -19,7 +19,7 @@ body {
 
 
 h1 {
-    font-size: clamp(20px, 2vw, 40px);
+    font-size: clamp(30px, 2vw, 40px);
     color: #202124;
     margin: 0;
     font-weight: bold;
@@ -34,7 +34,7 @@ h2 {
 }
 
 h3 {
-    font-size: clamp(14px, 1.5vw, 18px);
+    font-size: clamp(14px, 1.5vw, 17px);
 
 }
 
@@ -45,7 +45,8 @@ h4 {
 
 p {
     /* font-size: clamp(12px, 1vw, 14px); */
-    font-size: 1em;
+    /* font-size: 1em; */
+    font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     margin: 5px 0;
 }
@@ -213,9 +214,9 @@ footer a img:hover {
 }
 
 .intro_bold {
-    font-weight: 600;
-    color: rgb(44, 62, 80);
-    margin: 30px 0 10px 0;
+    font-size: 18px;
+    color: rgba(255,88,27, 0.75);
+    margin: 20px 0 20px 0;
 }
 
 .projects-content {
@@ -1043,6 +1044,7 @@ footer a img:hover {
     padding-top: 15px;
     padding-bottom: 10px;
     padding-right: 10px;
+    margin: 20px 0;
     overflow: auto;
     scrollbar-width: thin;
 }
@@ -1069,6 +1071,7 @@ footer a img:hover {
 
 .section {
     position: relative;
+    margin: 50px 0;
 }
 
 .education-section {
@@ -1143,7 +1146,7 @@ footer a img:hover {
 }
 
 .section-title h3 {
-    color: rgba(32,33,36, 0.5);
+    color: rgba(32,33,36, 0.35);
 }
 
 .section-content-title {
@@ -1157,9 +1160,10 @@ footer a img:hover {
     color: #202124;
 }
 .section-content-title h3 {
-    font-size: 13px;
-    margin: 0;
+    font-size: 14px;
+    margin:0 0 15px 0;
     color: #FF581B;
+    font-weight: 500;
 }
 
 .section-content-desc {
@@ -1168,9 +1172,9 @@ footer a img:hover {
 }
 .section-content-desc h3 {
     /* font-size: 1em; */
-    font-size: 14px;
+    font-size: 15px;
     margin: 0;
-    color: #202124;
+    font-weight: 600;
     color: #FF581B;
 }
 
@@ -1206,9 +1210,9 @@ footer a img:hover {
 }
 
 .card-label > p {
-    color: rgba(32,33,36, 0.65);
+    color: rgba(32,33,36, 0.75);
     font-weight: 600;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .section-card-container {
@@ -1361,7 +1365,7 @@ footer a img:hover {
         font-size: 18px;
     }
     p {
-        font-size:18px!important;
+        font-size:20px!important;
     }
 
     h1 {
@@ -1369,6 +1373,9 @@ footer a img:hover {
     }
     h3 {
         font-size: 23px!important;
+    }
+    a{
+        font-size: 18px;
     }
     button {
         font-size: 18px;
@@ -1382,11 +1389,11 @@ footer a img:hover {
         font-size: 24px;
     }
     .education-section:before {
-        height: 1550px;
+        height: 1150px;
     }
     .education-section > .section-content-container {
-        min-height: 790px!important;
-        max-height: 790px!important;
+        min-height: 550px!important;
+        max-height: 550px!important;
     }
     .section-content-card {
         height: 10vw;
