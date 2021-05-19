@@ -11,7 +11,7 @@ body {
     height: 100%;
     width: 100%;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; font-weight:500;
     margin: 0;
     color: #202124;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -876,6 +876,14 @@ footer a img:hover {
     background: url(images/timesheet-app-1.png);
 }
 
+.project-img_timesheet-2 {
+    background: url(images/timesheet-app-2.png);
+}
+
+.project-img_timesheet-3 {
+    background: url(images/timesheet-app-3.png);
+}
+
 .project-img_datavis {
     background: url(images/datavis.png);
     background-position: top!important;
@@ -1122,7 +1130,7 @@ footer a img:hover {
     position: absolute;
     top: 30px;
     left: 0;
-    height: 90%;
+    height: 85%;
     width: 4px;
     z-index: -1;
     background: rgba(189,189,189, 0.4);
@@ -1145,8 +1153,16 @@ footer a img:hover {
     background: rgba(189,189,189, 0.4); 
 }
 
+.experince-section > .section-content-container-timeline p {
+    padding-left: 20px;
+}
+
+.experince-section > .section-content-container > .section-content-desc > .section-card-container {
+    margin-left: 20px;
+}
 .section-title h3 {
     color: rgba(32,33,36, 0.35);
+    margin: 0;
 }
 
 .section-content-title {
@@ -1167,17 +1183,29 @@ footer a img:hover {
 }
 
 .section-content-desc {
+    position: relative;
     padding-left: 20px;
     margin-bottom: 20px;
 }
 .section-content-desc h3 {
     /* font-size: 1em; */
+    padding-left: 20px;
     font-size: 15px;
     margin: 0;
     font-weight: 600;
     color: #FF581B;
 }
-
+.section-content-desc h3:before {
+    content: '';
+    position: absolute;
+    min-width: 11px;
+    min-height: 11px;
+    border: 2px solid #FF581B;
+    border-radius: 50%;
+    left: 20px;
+    top: 3px;
+    background: rgb(255 110 57 / 20%);
+}
 .section-content-container-timeline p {
     margin: 8px 0;
 }
@@ -1202,7 +1230,7 @@ footer a img:hover {
 .card-label {
     display: flex;
     margin-right: 10px;
-    padding: 0 8px;
+    padding: 0 10px;
     margin-bottom: 10px;
     max-width: max-content;
     border-radius: 5px;
@@ -1213,6 +1241,7 @@ footer a img:hover {
     color: rgba(32,33,36, 0.75);
     font-weight: 600;
     font-size: 13px;
+    padding: 0!important;
 }
 
 .section-card-container {
@@ -1396,7 +1425,7 @@ footer a img:hover {
         font-size: 22px;
     }
     p, a {
-        font-size:30px;
+        font-size:31px;
     }
 
     h1 {
@@ -1452,7 +1481,7 @@ footer a img:hover {
         font-size: 38px;
     }
     .section-content-title h3 {
-        font-size: 35px;
+        font-size: 30px;
     }
     .section-content-desc h3 {
         font-size: 30px;
