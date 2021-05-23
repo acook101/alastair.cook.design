@@ -34,6 +34,11 @@ body::-webkit-scrollbar-thumb:hover {
     background: rgba(255,88,27, 0.9);
 }
 
+::selection {
+    background: rgba(255,88,27, 0.2);
+    color: rgba(255,88,27, 0.9);
+}
+
 h1 {
     font-size: clamp(30px, 2vw, 40px);
     color: #202124;
@@ -639,6 +644,8 @@ footer.my-links a img:hover {
 .project-img_cezanne-12 {
     background: url(images/project1-img-12.png);
     background-position: top!important;
+    background-size: contain!important;
+    min-height: 900px;
 }
 
 .project-img_cezanne-13 {
@@ -736,6 +743,25 @@ footer.my-links a img:hover {
     background: url(images/project1-img-29.png);
 }
 
+.project-img_cezanne-30 {
+    background: url(images/project1-img-30.jpg);
+    margin: 10px;
+}
+
+.project-img_cezanne-31 {
+    background: url(images/project1-img-31.jpg);
+    margin: 10px;
+}
+
+.project-img_cezanne-34 {
+    background: url(images/project1-img-34.jpg);
+    margin: 10px;
+}
+
+.project-img_cezanne-36 {
+    background: url(images/project1-img-36.jpg);
+    margin: 10px;
+}
 
 .project-img_recyclops {
     background: url(images/recyclops.jpg);
@@ -911,6 +937,8 @@ footer.my-links a img:hover {
 
 .project-img_timesheet-1 {
     background: url(images/timesheet-app-1.png);
+    background-size: contain!important;
+    background-position: center!important;
 }
 
 .project-img_timesheet-2 {
@@ -919,6 +947,23 @@ footer.my-links a img:hover {
 
 .project-img_timesheet-3 {
     background: url(images/timesheet-app-3.png);
+}
+
+.project-img_timesheet-4 {
+    background: url(images/timesheet-app-4.jpg);
+    max-height: 600px;
+    margin: 10px;
+}
+
+.project-img_timesheet-5 {
+    background: url(images/timesheet-app-5.jpg);
+    max-height: 600px;
+    margin: 10px;
+}
+
+.project-img_timesheet-6 {
+    background: url(images/timesheet-app-6.jpg);
+    background-size: contain!important;
 }
 
 .project-img_datavis {
