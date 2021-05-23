@@ -1387,15 +1387,18 @@ footer.my-links a img:hover {
         flex-direction:column;
         flex-wrap:unset;
     }
+    .timeline-half {
+        margin-bottom: 50px;
+    }
     .timeline-content{
         max-width: unset;
     }
-    .section-content-container {
+    /* .section-content-container {
         overflow: unset;
     }
     .section-content-container-timeline {
         min-height: 480px;
-    }
+    } */
     .projects-half {
         max-width: unset;
     }
@@ -1406,13 +1409,13 @@ footer.my-links a img:hover {
     .main-title h2 {
         font-size: clamp(20px, 10vw, 80px);
     }
-    .education-section {
+    /* .education-section {
         margin-top: 50px;
         max-height: 2550px;   
     }
     .work-section {
         min-height: 900px;
-    }
+    } */
 
     .projects-content {
         padding: 0 30px 124px 30px;
@@ -1491,7 +1494,7 @@ footer.my-links a img:hover {
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 65px;
     }
     h3 {
         font-size: 35px;
@@ -1524,7 +1527,10 @@ footer.my-links a img:hover {
         height: unset!important;
         min-height: unset!important;
     }
-    .section::before {
+    .section {
+        display: none;
+    }
+    /* .section::before {
         top: 50px;
         width: 6px;
     }
@@ -1540,8 +1546,8 @@ footer.my-links a img:hover {
         top: 10px;
         min-width: 22px;
         min-height: 22px;
-    }
-    .section-content-card {
+    } */
+    /* .section-content-card {
         height: 13vw;
         width: 13vw;
     }
@@ -1563,7 +1569,7 @@ footer.my-links a img:hover {
         font-size: 35px;
         padding-left: 50px;
         line-height: 50px;
-    }
+    } */
     footer.timeline-footer {
         display: none;
     }
