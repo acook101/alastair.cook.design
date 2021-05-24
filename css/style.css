@@ -1305,12 +1305,12 @@ footer.my-links a img:hover {
 }
 .section-title-highlight {
     /* font-size: 1em; */
-    padding: 5px 8px;
+    padding: 5px 0.8rem;
     font-size: 16px;
     margin: 0;
     font-weight: 500;
     color: rgba(255,88,27, 0.8);
-    border-left: 3px solid rgba(255,88,27, 0.7);
+    border-left: 4px solid rgba(255,88,27, 0.7);
     background-color: rgba(255,88,27, 0.07);
 }
 /* .section-content-desc h3:before {
