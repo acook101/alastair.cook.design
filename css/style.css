@@ -1617,6 +1617,9 @@ footer.my-links a img:hover {
     .section {
         display: none;
     }
+    .section-title-highlight {
+        font-size: 36px;
+    }
     /* .section::before {
         top: 50px;
         width: 6px;
