@@ -98,12 +98,42 @@ a {
 
 footer.timeline-footer {
     background: rgba(255,88,27, 0.07);
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    flex: 1 1 auto;
     height: 220px;
     border-top: 3px solid rgba(255,88,27, 0.07);
     width: 100%;
+    margin-top: 20px;
+}
+
+.timeline-footer_content {
+    padding: 30px 50px;
+    max-width: 500px;
+}
+
+.timeline-footer_content h1 {
+    color: rgba(255,88,27, 1);
+}
+
+.timeline-footer_content p {
+    color: rgba(255,88,27, 0.9);
+    line-height: 25px;
+}
+
+.tf-row {
+    display: flex;
+}
+
+.tf-row > a {
+    margin: 10px;
+    color: rgba(255,88,27, 0.8);
+    padding: 8px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid rgba(255,88,27, 0.8);
+}
+
+.tf-row > a:first-child {
+    margin-left: 0;
 }
 
 footer.my-links {
@@ -140,7 +170,7 @@ footer.my-links a img:hover {
 
 .timeline-half {
     position: relative;
-    display: table-cell;
+    display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
@@ -1225,7 +1255,7 @@ footer.my-links a img:hover {
 .experince-section > div > .section-content-title {
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .experince-section:before {
@@ -1240,11 +1270,11 @@ footer.my-links a img:hover {
 }
 
 .experince-section > .section-content-container-timeline p {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .experince-section > .section-content-container > .section-content-desc > .section-card-container {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .section-title h3 {
     color: rgba(32,33,36, 0.35);
@@ -1273,15 +1303,17 @@ footer.my-links a img:hover {
     padding-left: 20px;
     margin-bottom: 20px;
 }
-.section-content-desc h3 {
+.section-title-highlight {
     /* font-size: 1em; */
-    padding-left: 20px;
-    font-size: 15px;
+    padding: 5px 8px;
+    font-size: 16px;
     margin: 0;
-    font-weight: 600;
-    color: #FF581B;
+    font-weight: 500;
+    color: rgba(255,88,27, 0.8);
+    border-left: 3px solid rgba(255,88,27, 0.7);
+    background-color: rgba(255,88,27, 0.07);
 }
-.section-content-desc h3:before {
+/* .section-content-desc h3:before {
     content: '';
     position: absolute;
     min-width: 11px;
@@ -1291,7 +1323,7 @@ footer.my-links a img:hover {
     left: 20px;
     top: 3px;
     background: rgb(255 110 57 / 20%);
-}
+} */
 .section-content-container-timeline p {
     margin: 8px 0;
 }
@@ -1424,7 +1456,9 @@ footer.my-links a img:hover {
         max-width: unset;
         padding: 10px 10px 60px 10px;
     }
-
+    .timeline-footer {
+        display: none;
+    }
 }
 
 @media only screen and (max-device-width: 480px) { 
