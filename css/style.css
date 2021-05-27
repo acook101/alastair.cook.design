@@ -306,7 +306,7 @@ footer.my-links a img:hover {
     margin-bottom: 60px;
     border-radius: 50%;
 
-    background: url(images/me2.png);
+    background: url(images/me.png);
     /* background: url(images/me.jpg); */
     filter: brightness(0.98);
     background-repeat: no-repeat;
