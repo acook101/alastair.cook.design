@@ -20,13 +20,12 @@ body {
 
 body::-webkit-scrollbar {
     height: 10px;
-    width: 10px;
+    width: 8px;
 }
 
 /* Handle */
 body::-webkit-scrollbar-thumb {
     background: rgba(255,88,27, 0.7);
-    border-radius: 10px;
 }
 
 /* Handle on hover */
@@ -802,6 +801,48 @@ footer.my-links a img:hover {
     margin: 10px;
 }
 
+.project-img_cezanne-37 {
+    background-position: top!important;
+    background: url(images/project1-img-37.jpg);
+    margin: 10px;
+}
+
+.project-img_cezanne-38 {
+    background-position: left!important;
+    background: url(images/project1-img-38.jpg);
+    margin: 10px;
+}
+
+.project-img_cezanne-39 {
+    background-position: left!important;
+    background: url(images/project1-img-39.jpg);
+    margin: 10px;
+}
+
+.project-img_cezanne-40 {
+    background-position: top!important;
+    background: url(images/project1-img-40.jpg);
+    margin: 10px;
+}
+
+.project-img_cezanne-41 {
+    background-size: contain!important;
+    background: url(images/project1-img-41.png);
+    margin: 10px;
+}
+
+.project-img_cezanne-42 {
+    background-size: contain!important;
+    background: url(images/project1-img-42.png);
+    margin: 10px;
+}
+
+.project-img_cezanne-43 {
+    background: url(images/project1-img-43.png);
+    margin: 10px;
+}
+
+
 .project-img_recyclops {
     background: url(images/recyclops.jpg);
 }
@@ -1492,7 +1533,7 @@ footer.my-links a img:hover {
         padding-top: 50px;
     }
     .main-title h1 {
-        margin-top: 200px; 
+        margin-top: 160px; 
         font-size: clamp(40px, 10vw, 100px);
     }
     .main-title h2 {
