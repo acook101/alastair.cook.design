@@ -35,16 +35,21 @@
                         <h2>Data Visualisation</h2>
                     </div>
                     <div class="card-tags">
-                        <div class="project-tag"><p>Programming</p></div>
-                        <div class="project-tag"><p>Data Visualisation</p></div>
+                        <div class="project-tag"><p>Data Visualisations</p></div>
                         <div class="project-tag"><p>Data theory</p></div>
-                        <div class="project-tag"><p>Electronics</p></div>
+                        <div class="project-tag"><p>JavaScript </p></div>
                         <div class="project-tag"><p>Programming</p></div>
                     </div> 
                     <p>
                         During my MSc, I created a data visualisation portfolio that exlpored a variety of visualization techniques, that was heavily influenced by the modules (User-Centred Data Visualization) focus on
-                        the foundations of visual perception and basic concepts of data representation and analysis. 
-                    </br></br><a href="https://drive.google.com/file/d/1CEafe5MArLB0VBEqjJFiQN3BVUA2NPOy/view?usp=sharing"> See full report here </a>                  
+                        the foundations of visual perception and basic concepts of data representation and analysis.
+                        
+                        <br><br><b>Outcomes:</b><br>
+                        Undertsand the fundamental principles of human perception and how they apply to the design of data visualizations or other information displays;<br>
+                        Apply different methods to visualize data sets;<br>
+                        Design effective interactive information displays;<br>
+                        Evaluate different information displays across a range of dimensions.<br>
+                    </br><a href="https://drive.google.com/file/d/1CEafe5MArLB0VBEqjJFiQN3BVUA2NPOy/view?usp=sharing"> See full report here </a>                  
                     </p>
                 </div>
 
@@ -162,17 +167,6 @@
                         <i><b>Medium:</b></i> </br> 
                         This visualisation has been designed as a multimedia report that could be used both in both public or digital spaces.</br> </br> 
                         
-                        <i><b>Motivation:</b></i> </br> 
-                        As the spread of COVID-19 has effected nearly every part of
-                        the world, shutting down economy's and pushing health
-                        services to the brink. A lot of the data reported within the
-                        mainstream media has predominantly been focused on
-                        global level statistics, such as countries and capitals. While
-                        assumptions' around population density provide good
-                        indications for the levels of COVID-19 cases and deaths within
-                        regional and local areas, little reporting has been presented
-                        through this frame.</br> </br> 
-
                         <i><b>Research, Design and Development:</b></i> </br>
                         This report consists of two main visualutions.
                         First, a geographical representation of the UK,
@@ -218,28 +212,117 @@
                         highlighted in Figure.12. Allowing users to
                         toggle between different geographical and
                         quantitative parameters. </br> </br> 
+                    </p>
+                        <h3 style="margin:0;">World COVID-19 Breakdown </h3>
+                        <h4>Mirrored Histogram   </h4>
+                        <p> 
+                            <i><b>Data Source:</b></i> </br> 
+                            Johns Hopkins University (JHU), https://github.com/CSSEGISandData/COVID-19/</br> 
+    
+                            <br><i><b>Medium:</b></i> </br> 
+                            This visualisation would mostly likely be a stand alone
+                            website with the aim of being mobile accessible.
+                            Additional functionality around API's could enable this
+                            visualization to be shared through iframes to news
+                            outlets and educational organizations. </br> </br> 
+                            
+                            <i><b>Domain Tasks:</b></i> </br> 
+                            - Which country has been most effected by COVID-19?
+                            - What stage of infection is a country currently at ?
+                            - How success/unsuccess have countries been with
+                            suppressing new cases ? </br> </br> 
+    
+                            <i><b>Research, Design and Development:</b></i> </br>
+                            When visualising the COVID-19 data the aim was to be
+                            able to create a distinguishable combined view of the
+                            multiple death and case variables. Examples shown in
+                            figure 16 show the early ideations around managing
+                            multiple conditions within visualisations. The final
+                            design as shown in figure.15 settled on a mirrored
+                            histogram approach, where the vertical axis shows the
+                            gradient magnitude of the old and new confirmed
+                            cases, recovery's, and deaths.
+                            This data could of been a presented as line graph as
+                            shown in figure 16. While the overall outline of the
+                            projected data would of looked similar, the layout of the
+                            mirrored histogram provided a powerful silhouette of
+                            the shape of the data. Emphasising multiple levels of
+                            information such as; the stage a country was in relation
+                            to infections and deaths, how much had cases and
+                            deaths increased or decreased over the given time
+                            period, and what countries had been successful in
+                            managing the outbreaks of infections. Histograms are a
+                            common technique to present the distribution of
+                            continuous data through non-overlapping slabs, which
+                            are usually consistent in size and orientation [9].
+                            The visualisation referred to Munzners Separate, Order,
+                            and Align: Categorical Regions [6] when refining the
+                            later designs. As shown in figure 15, the design reflects
+                            the usage of spatial regions between each vertical slab,
+                            followed by additions of color hue and a singular key.
+                            Embellishments around country flags (figure 15) were
+                            used to enhance user retention and their ability to
+                            recall information in the long-term [12]. This also is
+                            suggested to make the data feel more familiar and
+                            personal to the individual user [10].
+                            The data was stored as an CSV file which was then
+                            imported to D3.js where it was manipulated and
+                            structured. The visualisation was then outputted into a
+                            web page, formatted through HTML and CSS.
+                            </p></br> </br> 
 
-                        <i><b>Sparkline Map:</b></i> </br>
-                        The sparkline map was created in GQIS, using the geometry
-                        generation feature to construct all of the elements and layers
-                        within the visualization, and relational expressions to mold
-                        the graph around the data.</br> </br> 
-
-                        <i><b>Bar Chart & Labels:</b></i> </br>
-                        Both the labels and bar chart were
-                        formatted in a webpage through HTML &
-                        CSS, with the chart being created
-                        through D3.js. The styling of both
-                        elements followed the same contrasts as
-                        the map to ensure comparisons
-                        between both visualizations were
-                        correctly perceived.</br> </br> 
-
-
-                        <div class="project-img-cluster">
-                            <div class="image-placeholder project-img_datavis-13"></div>
-                        </div>
-
+                            <h3 style="margin:0;">Nuclear Explosions Since 1945 </h3>
+                            <h4>Bubble Map </h4>
+                            <p> 
+      
+                                <i><b>Medium:</b></i> </br> 
+                                This visualisation would mostly likely be a stand
+                                alone video or gif that could be shared online, or
+                                embedded within a website with additional
+                                interactive functionality. </br> </br> 
+                                
+                                <i><b>Domain Tasks:</b></i> </br> 
+                                - Inform the user about the scale of nuclear
+                                explosions used across the world.
+                                - Emphasise the difference between the usage of
+                                nuclear bombs in the past and now.
+                                - When was nuclear weapons tested the most ?</br> 
+    
+        
+                                <br><i><b>Research, Design and Development:</b></i> </br>
+                                This visualization takes form as a
+                                geographical representation of the world,
+                                showing an animated timeline of every
+                                nuclear bomb used around the world. The
+                                dataset consisted of four main features; date
+                                and time, location, country name, and x/y
+                                coordinates.
+                                One of the most important aspects of this
+                                visualization was ensuring that it made the
+                                data feel personal to the individual, as Yau
+                                suggest that maps feel personal to people
+                                as a result of their familiarity [10]. As the
+                                nature of the data was around specific
+                                geographic coordinates, it was felt that a
+                                bubble design would serve this visualization
+                                best as each of the red circles, representing
+                                a nuclear explosion, are displayed over a
+                                designated geographical region. As bubble
+                                charts are widely acknowledged to be an
+                                effective way of comparing proportions
+                                across geographical regions, compared to
+                                other alternatives such as choropleth maps,
+                                which can often mislead users perceptions
+                                around the proportion of a given value as
+                                larger regions appear more emphasised
+                                then smaller ones [10].
+                                Within a web-based medium this
+                                visualization would look something similar to
+                                figure 18, once again referring to Yau
+                                suggestions on how using multiple maps
+                                together can help show patters across time
+                                series data. 
+                            </p>
                 </div>
 
             </div>
@@ -251,6 +334,7 @@
         <div class="projects-half">
             <div class="projects-content">
                 <div class="project-card">
+                    <div class="project-card_tag"><p>Twitter Word Cloud</p></div>
                     <div class="image-placeholder project-img_datavis"></div>
                 </div>
 
@@ -271,9 +355,19 @@
                     <div class="image-placeholder project-img_datavis-4"></div>
                     <div class="image-placeholder project-img_datavis-3"></div>
                 </div>
+
+                <div class="project-card" >
+                    <div class="project-card_tag"><p>UK COVID-19 Report </p></div>
+                    <div class="image-placeholder project-img_datavis-2"></div>
+                </div>
+
                 <div class="project-card" style="min-height: 300px;">
                     <div class="image-placeholder project-img_datavis-8"></div>
                     <div class="image-placeholder project-img_datavis-9"></div>
+                </div>
+
+                <div class="project-card" style="min-height: 600px;">
+                    <div class="image-placeholder project-img_datavis-13"></div>
                 </div>
 
                 <div class="project-card" style="min-height: 300px;">
@@ -283,8 +377,29 @@
                     <div class="image-placeholder project-img_datavis-10"></div>
                 </div>
 
-                <div class="project-card" >
-                    <div class="image-placeholder project-img_datavis-2"></div>
+                <div class="project-card" style="min-height: 600px;">
+                    <div class="image-placeholder project-img_datavis-19"></div>
+                </div>
+
+                <div class="project-card" style="min-height: 600px;">
+                    <div class="project-card_tag"><p>World COVID-19 Breakdown </p></div>
+                    <div class="image-placeholder project-img_datavis-14"></div>
+                </div>
+
+                <div class="project-card" style="min-height: 700px;">
+                    <div class="image-placeholder project-img_datavis-15"></div>
+                </div>
+                <div class="project-card" style="min-height: 700px;">
+                    <div class="image-placeholder project-img_datavis-16"></div>
+                </div>
+
+                <div class="project-card" style="min-height: 700px;">
+                    <div class="project-card_tag"><p>Nuclear Explosions Animated Visualisations </p></div>
+                    <div class="image-placeholder project-img_datavis-17"></div>
+                </div>
+
+                <div class="project-card" style="min-height: 800px;">
+                    <div class="image-placeholder project-img_datavis-18"></div>
                 </div>
 
             </div>

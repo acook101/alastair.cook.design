@@ -47,7 +47,7 @@ h1 {
 }
 
 h2 {
-    font-size: clamp(16px, 1.5vw, 20px);
+    font-size: clamp(16px, 1.5vw, 18px);
     color: #FF581B;
     margin: 0;
     font-weight: bold;
@@ -64,10 +64,26 @@ h4 {
 }
 
 p {
-    font-size: 15px;
+    /* font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     margin: 5px 0;
-    line-height: 30px;
+    line-height: 30px; */
+
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 5px 0;
+    line-height: 32px;
+    font-weight: 500;
+    color: #666;
+    letter-spacing: -.02em;
+}
+
+.p-highlight {
+    color: #202124;
+}
+
+b {
+    color: #222;
 }
 
 .indent_left {
@@ -842,6 +858,13 @@ footer.my-links a img:hover {
     margin: 10px;
 }
 
+.project-img_cezanne-44 {
+    background-size: contain!important;
+    background-position: center!important;
+    box-shadow: none;
+    background: url(images/project1-img-44.png);
+    margin: 10px;
+}
 
 .project-img_recyclops {
     background: url(images/recyclops.jpg);
@@ -1043,7 +1066,24 @@ footer.my-links a img:hover {
 
 .project-img_timesheet-6 {
     background: url(images/timesheet-app-6.jpg);
+    max-height: 600px;
+    margin: 10px;
+}
+
+.project-img_timesheet-7 {
+    background: url(images/timesheet-app-7.jpg);
     background-size: contain!important;
+}
+
+.project-img_timesheet-8 {
+    background: url(images/timesheet-app-8.png);
+    background-size: contain!important;
+}
+
+.project-img_timesheet-9 {
+    background: url(images/timesheet-app-9.jpg);
+    max-height: 600px;
+    margin: 10px;
 }
 
 .project-img_datavis {
@@ -1058,7 +1098,6 @@ footer.my-links a img:hover {
 
 .project-img_datavis-2 {
     background: url(images/datavis-2.png);
-    background-position: top!important;
 }
 
 .project-img_datavis-3 {
@@ -1131,6 +1170,42 @@ footer.my-links a img:hover {
     margin: 10px;
 }
 
+.project-img_datavis-14 {
+    background: url(images/datavis-14.png);
+    background-size:contain!important;
+    margin: 10px;
+}
+
+.project-img_datavis-15 {
+    background: url(images/datavis-15.png);
+    background-size:contain!important;
+    margin: 10px;
+}
+
+.project-img_datavis-16 {
+    background: url(images/datavis-16.png);
+    background-size:contain!important;
+    margin: 10px;
+}
+
+.project-img_datavis-17 {
+    background: url(images/datavis-17.png);
+    background-size:contain!important;
+    margin: 10px;
+}
+
+.project-img_datavis-18 {
+    background: url(images/datavis-18.png);
+    background-size:contain!important;
+    margin: 10px;
+}
+
+.project-img_datavis-19 {
+    background: url(images/datavis-19.png);
+    background-size:contain!important;
+    margin: 10px;
+}
+
 .project-img_icu {
     background: url(images/icu.png);
     background-position: top!important;
@@ -1175,6 +1250,11 @@ footer.my-links a img:hover {
     flex: 1;
     max-width: 300px;
     padding-bottom: 80px;
+}
+
+.card-contents p {
+    font-size: 15px;
+    color: #222;
 }
 
 .card-contents button {
@@ -1247,6 +1327,7 @@ footer.my-links a img:hover {
 .experince-section {
     margin-bottom: 40px;
 }
+
 .education-section {
     margin-top: 50px;
 }
@@ -1305,7 +1386,8 @@ footer.my-links a img:hover {
 .experince-section > div > .section-content-title {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    height: 30px;
 }
 
 .experince-section:before {
@@ -1469,6 +1551,16 @@ footer.my-links a img:hover {
 
 }
 
+@media only screen and (max-width: 1200px){
+    footer.my-links {
+        display: flex;
+        flex-direction: column;
+    }
+    footer.my-links a img {
+        margin-bottom: 10px;
+    }
+}
+
 @media only screen and (max-width: 812px) {
     .main-title h1 {
         margin-top: 50px; 
@@ -1512,6 +1604,13 @@ footer.my-links a img:hover {
 }
 
 @media only screen and (max-device-width: 480px) { 
+    footer.my-links {
+        display: flex;
+        flex-direction: row;
+    }
+    footer.my-links a img {
+        margin-right: 10px;
+    }
     .wrapper {
         flex-direction:column;
         flex-wrap:unset;
@@ -1546,6 +1645,27 @@ footer.my-links a img:hover {
     .work-section {
         min-height: 900px;
     } */
+
+    p, .card-contents p,  a {
+        font-size:35px;
+        line-height: 60px;
+    }
+
+    h1 {
+        font-size: 65px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    button {
+        font-size: 30px;
+        border-radius: 35px;
+    }
+    footer.my-links a img {
+        width: 60px;
+        height: 60px;
+        margin-right: 25px;
+    }
 
     .projects-content {
         padding: 0 30px 124px 30px;
@@ -1614,31 +1734,11 @@ footer.my-links a img:hover {
         line-height: unset;
     }
     .project-tag {
-        padding: 10px 15px;
+        padding: 2px 15px;
         border-radius: 30px;
     }
     .project-tag p {
         font-size: 28px;
-    }
-    p, a {
-        font-size:35px;
-        line-height: 60px;
-    }
-
-    h1 {
-        font-size: 65px;
-    }
-    h3 {
-        font-size: 35px;
-    }
-    button {
-        font-size: 30px;
-        border-radius: 35px;
-    }
-    footer.my-links a img {
-        width: 60px;
-        height: 60px;
-        margin-right: 25px;
     }
     .intro_bold {
         font-size: 40px;
@@ -1668,48 +1768,9 @@ footer.my-links a img:hover {
         display: none;
     }
     .section-title-highlight {
-        font-size: 36px;
+        font-size: 38px;
     }
-    /* .section::before {
-        top: 50px;
-        width: 6px;
-    }
-    .education-section:before {
-        height: 2500px;
-    }
-    .education-section > .section-content-container {
-        min-height: 1400px!important;
-        max-height: 1400px!important;
-    }
-    .section-content-desc h3:before {
-        left: 32px;
-        top: 10px;
-        min-width: 22px;
-        min-height: 22px;
-    } */
-    /* .section-content-card {
-        height: 13vw;
-        width: 13vw;
-    }
-    .section-content-card img {
-        max-width: 70%;
-        max-height: 70%;
-    }
-    .section-content-title {
-        height: 80px;
-        border-left: 6px solid #FF581B;  
-    }
-    .section-content-title h2 {
-        font-size: 42px;
-    }
-    .section-content-title h3 {
-        font-size: 32px;
-    }
-    .section-content-desc h3 {
-        font-size: 35px;
-        padding-left: 50px;
-        line-height: 50px;
-    } */
+
     footer.timeline-footer {
         display: none;
     }
