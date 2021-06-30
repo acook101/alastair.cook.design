@@ -82,6 +82,24 @@ p {
     color: #202124;
 }
 
+.p-section {
+    position: relative;
+    margin: 10px 0;
+}
+.p-section > .indent_left {
+    margin-left: 25px;
+}
+.p-section::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 95%;
+    width: 4px;
+    z-index: -1;
+    background: rgba(189,189,189, 0.4);
+}
+
 b {
     color: #222;
 }
