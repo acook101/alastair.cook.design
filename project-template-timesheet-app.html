@@ -35,56 +35,92 @@
                         <h2>Mobile Development</h2>
                     </div>
                     <div class="card-tags">
-                        <div class="project-tag"><p>Atomic Design</p></div>
-                        <div class="project-tag"><p>Design</p></div>
+                        <div class="project-tag"><p>Mobile Design</p></div>
+                        <div class="project-tag"><p>App Development</p></div>
                         <div class="project-tag"><p>Prototyping</p></div>
-                        <div class="project-tag"><p>Research</p></div>
-                        <div class="project-tag"><p>Front-end Dev</p></div>
+                        <div class="project-tag"><p>Usability Testing</p></div>
                     </div> 
                     <p>
-                        I participated in the design, testing and development of a time tracking app, helping companies manage employee timesheets on the go.                       </br></br><a href="https://drive.google.com/file/d/1goc59WSf8mw_p0JdHViOripxe9orIEl2/view?usp=sharing"> View here </a>                  
+                        I participated in the design, testing and development of a time tracking app, helping companies manage employee timesheets on the go.                 
                     </p>
                 </div>
 
                 <div class="section-content-container">
                     <h3>The Problem</h3>
-                    <p>As the majority of the mobile functionality would be rooted in how timesheets currently worked within the main system (CezanneHR), a large amount of complex and intertwined requirements were required to be translated into mobile focused designs. From a design perspective, this presented an unconventional and difficult challenge, ensuring the flow and structure of the mobile screens matched the seamlessness and simplicity of the desktop version.               
+                    <p>As the majority of the timesheet mobile functionality would be based upon the desktop version within CezanneHR, we had a significant amount of predefined requirements which were required to be translated into mobile designs. This presented an unconventional and challenging design process, which involved myself having to work around a large amount of complex and rigid technical constraints to ensure the flow and structure of the mobile screens matched the seamlessness and simplicity of the desktop version.                
                     </p>
                 </div>
 
                 <div class="section-content-container">
-                    <h3>Ideation & Sketching </h3>
-                    <p>Initially, I explored a mixture of design ideas through a rapid-sketching session, alongside researching potential materials and technologies that could assist them. Throughout this process I aimed for four targets:</br>                   
-                    </br><b>Scope:</b></br> 
-                    <i>Define a realistic time-line for each design.</i>
-                    
-                </br></br> 
-                    <b>Does this address the issue:</b></br> 
-                    <i>In what ways does the design directly address the problem?</i>
-                    
-                </br></br> 
-                    <b>Feasibility:</b></br> 
-                    <i>An evaluation of both the technological and material requirements for each design.</i>
-            
-                </br></br> <b>Feedback:</b></br> 
-                    <i>An iterative loop of feedback and re-designs, taking into account new perspectives and potential risks.</i>
-
+                    <h3>Design </h3>
+                    <p>While additional usability testing followed new designs and prototypes, I was able to begin the initial design process based on the existing knowledge of requirements that had been established from the usage of the desktop version. This involved considerations around; security roles (line managers & self service), time types (duration or time in & out) and timesheet states (approved or unapproved).<br><br> Initially, I began with some rough sketches to explore what kinds of layouts and UI elements would best manage the variety of information that would be displayed. This was especially difficult, when considering the reduction of screen real estate available, which resulted in many of the designs balancing an increasing amount of steps required and the intuitiveness of the overall user journey. Technical considerations around the existing functionality on the desktop version also impacted how designs were outlined, as the desktop version provided enough screen real estate for the majority of actions to be shown at once. This created issues when ensuring certain actions across timesheets maintained the contextual affordances they had on the desktop version. After multiple iterations and discussions, hi-fidelity prototypes were created and usability testing began.</br> 
                     </p>
                 </div>
 
                 <div class="section-content-container">
-                    <h3>Prototyping & Programming </h3>
-                    <p>Following the initial ideations, I narrowed the scope of the designs around their ability to meet the four targets outlined above. Electronic development began alongside early physical prototypes to further establish the validity and feasibility of the proposed solution. Early prototypes were first tested on components alone, which then later were implemented into a scaled down physical carboard version of the design. The programing of the device took a parallel prototyping approach where each components was developed in isolation then later merged together.
-                    </p>
+                    <h3>Usability Testing </h3>
+                    <p>To evaluate some of the initial designs/prototypes, we conducted 14 usability tests to gain insights into the restructured flow of how SS/LM users’ entered and managed timesheets on mobile and any general usability issues that may arise. Below is a summary of what we found.
+                    </p><br>
+                    <div class="p-section">
+                        <p class="p-highlight indent_left" style="margin-bottom: 10px;">5 people said they liked the Edit button, 9 people said they didn’t think it was necessary or that they wouldn’t use it personally.</p>
+                        <p class="indent_left">- Most people didn’t notice the difference between the 2 apps (they didn’t notice the Edit button was gone or they didn’t notice the Edit button had appeared)
+                        </p>
+                        <p class="indent_left">- Most people naturally clicked on the row on both apps (with and without the edit button). A couple of people clicked on the row when there was no Edit button, but used the Edit button if it was there.
+                        </p>
+                        <p class="indent_left">- A couple of people clicked ‘Submit Request’ instead of on a row because it was the only button on the screen (using app with no Edit button). 
+                        </p>
+                        <p class="indent_left">- When clicking on a day, some people thought they were just editing that day. They would then go back to click on a different day, to enter time on that day. However, most of these people quickly realised you could go through the days along the top.
+                        </p>
+                    </div>
+                    <br>
+                    <div class="p-section">
+                        <p class="p-highlight indent_left" style="margin-bottom: 10px;">Add Activity button </p>
+                        <p class="indent_left">- Some people thought the ‘+’ wasn’t completely clear and thought it would be clearer if the button had a label like ‘Add Activity’
+                        </p>
+                        <p class="indent_left">- Some people thought that the Review/Submit button was too prominent compared to the ‘+’ button. Sometimes people clicked the Review/Submit button when they had meant to click the ‘+’ button. 
+                        </p>
+                        <p class="indent_left">- Someone thought it would be clearer if the button was closer to the top/middle of the screen (where the existing activities are) 
+                        </p>
+                    </div>
+                    <br>
+                    <div class="p-section">
+                        <p class="p-highlight indent_left" style="margin-bottom: 10px;">A few people thought that adding activities and time for every day takes quite a bit of time.
+                        </p>
+                        <p class="indent_left">- A few people asked whether they can just copy the previous day
+                        </p>
+                        <p class="indent_left">- Someone thought it would be better if it was pre-filled with 9:00 instead of 00:00 
+                        </p>
+                        <p class="indent_left">- Someone thought it would be better if you could type in the time rather than scroll 
+                        </p>
+                    </div>
+                    <br>
+                    <div class="p-section">
+                        <p class="p-highlight indent_left" style="margin-bottom: 10px;">Most people didn’t click on the breakdown button in the top right of the timesheet totals screen without prompting.
+                        </p>
+                        <p class="indent_left">- Most people did click on it after I asked where might you go to see a breakdown of the week, but said they didn’t think the icon was clear enough. A couple of people suggested it would be clearer if the button had a label. 
+                        </p>
+                        <p class="indent_left">- One person (from Marketing) still didn’t click it after I asked and tried clicking on the 3 dots in the corner as well as the back button in the top left.  
+                        </p>
+                        <p class="indent_left">- One person (from Support) was a bit confused about what that screen showed after they clicked on the button and said they think it’s because the duration looks like a time (e.g. 7:30) for Time In Time Out timesheets.
+                        </p>
+                    </div>
+                    <br>
+                    <div class="p-section">
+                        <p class="p-highlight indent_left" style="margin-bottom: 10px;">Addtional Feedback
+                        </p>
+                        <p class="indent_left">- One person thought that the green for the day selector along the top was validation. They thought that all the time they entered was fine and so was surprised when they went to the Timesheet Totals screen to see that it was actually under. 
+                        </p>
+                        <p class="indent_left">- One person suggested there be an arrow or a word like ‘to’ between the start time and end time boxes just to make it a bit clearer what they are. (They thought it was clear that it’s the duration displayed on the right.)
+                        </p>
+                        <p class="indent_left">- The people who were less familiar with the system seemed to struggle to navigate to the timesheet. They didn’t realise that they had to go to the task. When they went to the My Timesheets screen, they didn’t click on the pending submission timesheet.
+                        </p>
+                    </div>
                 </div>
-
-
                 <div class="section-content-container">
-                    <h3>Implementation & Refinement</h3>
-                    <p>Before assembling the physical structure, the code was tested and refined through multiple scenario based tests. After merging all of the components together, extra work was needed to reactor some of the old code to ensure the prototype still worked alongside the newly added component's. The Pixy Camera had to be trained with specific objects to ensure that it would be able to communicate with the Arduino Uno. The final stage was the physical implementation, which was constructed from cardboard, creating the outline of the 'monsters' appearance and both bin slots.                    
+                    <h3>Development</h3>
+                    <p>Following the usability feedback, we began narrowing down design variations which allowed for more finalised design specifications to be formed, outlining the overall flow of the screens and the differences between time types and states which developers would have to consider. The front-end development of the app was done through Xamarin forms, which involved myself working closely with mobile developers, taking responsibility in managing the layouts and UI elements across all of the designs, while communicating expectations around the functionality to developers.                         
                     </p>
                 </div>
-
             </div>
         </div>
 
