@@ -348,7 +348,7 @@ footer.my-links a img:hover {
     margin-bottom: 60px;
     border-radius: 50%;
 
-    background: url(images/me.png);
+    background: url(images/me1.jpeg);
     /* background: url(images/me.jpg); */
     filter: brightness(0.98);
     background-repeat: no-repeat;
@@ -1486,7 +1486,7 @@ footer.my-links a img:hover {
 .title-logo-container img {
     height: 30px;
     width: 30px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .title-logo-container > .stretch {
