@@ -348,12 +348,14 @@ footer.my-links a img:hover {
     margin-bottom: 60px;
     border-radius: 50%;
 
+    /* background: url(images/me.png); */
     background: url(images/me1.jpeg);
-    /* background: url(images/me.jpg); */
     filter: brightness(0.98);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    /* border: 7px solid rgba(255,88,27, 0.9); */
+    border: 7px solid white;
 }
 
 
@@ -604,7 +606,7 @@ footer.my-links a img:hover {
     display: flex;
     min-height: 550px;
     width: 100%;
-    max-width: 800px;
+    max-width: 850px;
     background: white;
     border-radius: 15px;
     box-shadow:0 2px 5px 0 rgba(140, 144, 155, 0.15);
@@ -642,6 +644,7 @@ footer.my-links a img:hover {
     background-repeat: no-repeat!important;
     background-size: cover!important;
     background-position: left!important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .project-img-cluster {
@@ -665,6 +668,11 @@ footer.my-links a img:hover {
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+.project-img_amazon {
+    background: url(images/employee-journey.png);
+    background-position: top!important;
 }
 
 .project-img_cezanne {
@@ -867,12 +875,12 @@ footer.my-links a img:hover {
 
 .project-img_cezanne-42 {
     background-size: contain!important;
-    background: url(images/project1-img-42.png);
+    background: url(images/project1-img-42.PNG);
     margin: 10px;
 }
 
 .project-img_cezanne-43 {
-    background: url(images/project1-img-43.png);
+    background: url(images/project1-img-43.PNG);
     margin: 10px;
 }
 
@@ -1266,7 +1274,7 @@ footer.my-links a img:hover {
     position: relative;
     padding: 20px;
     flex: 1;
-    max-width: 300px;
+    max-width: 350px;
     padding-bottom: 80px;
 }
 
@@ -1319,7 +1327,7 @@ footer.my-links a img:hover {
 }
  
 .section-content-container-timeline {
-    min-height: 300px;
+    min-height: 320px;
 }
 
 .section-content-container::-webkit-scrollbar {
@@ -1395,7 +1403,7 @@ footer.my-links a img:hover {
     position: absolute;
     top: 30px;
     left: 0;
-    height: 85%;
+    height: 90%;
     width: 4px;
     z-index: -1;
     background: rgba(189,189,189, 0.4);
@@ -1486,7 +1494,6 @@ footer.my-links a img:hover {
 .title-logo-container img {
     height: 30px;
     width: 30px;
-    margin-left: 20px;
 }
 
 .title-logo-container > .stretch {
